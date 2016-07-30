@@ -1,0 +1,58 @@
+body {
+	background-image: url('../images/Blankslide.png');
+	font-family: "Voltaire", sans-serif;
+	color: #6cff56;
+ 	font-size:22px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#faLogo {
+	width:500px;
+}
+
+.jumbo { 
+	opacity: 0.7;
+	background-color: black;
+	/*border-style: solid;
+	border-width: 3px 0px 3px 0px;
+	border-color: #6cff56;*/
+	box-shadow: 0 0 3px 15px black;
+	
+ }
+
+ #Fallout {
+ 	opacity: 0.7;
+	background-color: black;
+	border-style: solid;
+	border-width: 3px 0px 3px 0px;
+	border-color: #6cff56;
+	box-shadow: 0 0 10px 10px black;
+	
+ }
+/*Class for button hover effect*/
+ .hoverAnswer{
+ 	border-style: solid;
+ 	border-width: 3px;
+ 	border-color: #6cff56;
+ }
+
+ #answerList{
+ 	display: none;
+
+ }
+
+#startScreen{
+
+}
+
+#questDisplay{
+	display: none;
+}
+
+#correctScreen{
+	display: none;
+}
+
+#wrongScreen{
+	display: none;
+}

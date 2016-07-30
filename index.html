@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang ='en'>
+	<head>
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> 
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Voltaire" rel="stylesheet">
+	</head>
+	<body>
+		<div class='container'>
+
+
+
+			<div class='row'>
+
+				<div class='col-md-12 text-center'>
+					<header><img src='https://www.uvm.edu/~mbeal/cs008/finalProject/logo.png' id='faLogo'></header>
+				</div>
+			</div>
+
+<!-- Screen that displays when the answer is correct -->
+		<div class='jumbotron text-center jumbo' id='correctScreen'>
+			<h1>Nice Job!</h1>
+			<div id='correctImage'></div>
+		</div>
+
+<!-- Screen that displays on an incorrect answer -->
+		<div class='jumbotron text-center jumbo' id='wrongScreen'>
+			<h1>Tough luck..</h1>
+			<div class="imageHere img-responsive" id='wrongImage'></div>
+		</div>			
+		
+<!-- Screen you see on load. Question display replaces startScreen upon starting the game		 -->
+			<div class='row'>
+				<div class='jumbotron text-center jumbo' id='startScreen'>
+				<h1>Trivia Time!</h1>
+				<div class='fallButton' id='startGame'>Game Start!</div>
+				</div>				
+				<div class='jumbotron text-center jumbo' id='questDisplay'>
+				</div>
+
+			</div>
+<!-- Answer list, hidden from view until game has started -->
+			<div class='row' id = 'answerList'>
+				<div class='col-md-12 text-center' id='Fallout'>
+					<div class='row answerChoice fallButton' id='Answer1'>
+						<p>Sample Answer Here</p>
+					</div>
+					<div class='row answerChoice fallButton' id='Answer2'>
+						<p>Sample Answer Here</p>
+					</div>
+					<div class='row answerChoice fallButton' id='Answer3'>
+						<p>Sample Answer Here</p>
+					</div>
+					<div class='row answerChoice fallButton' id='Answer4'>
+						<p>Sample Answer Here</p>
+					</div> 
+				</div>
+			</div> 
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/javascript/app.js"></script>
+	</body>
+</html>
