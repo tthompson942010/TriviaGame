@@ -70,9 +70,14 @@ body {
 
 #wrongImage{
 	max-width: 500px;
-	float: block;
 }
 
 #resetButton{
 	display: none;
+}
+
+img {
+	width : 500px;
+	height: auto;
+
 }
